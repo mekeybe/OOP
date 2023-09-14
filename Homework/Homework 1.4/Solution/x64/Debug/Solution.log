@@ -1,0 +1,3 @@
+﻿  Solution.cpp
+C:\Users\я\source\repos\Homework\Homework 1.4\Solution\Solution.cpp(10,13): warning C4267: инициализация: преобразование из "size_t" в "int"; возможна потеря данных
+  Solution.vcxproj -> C:\Users\я\source\repos\Homework\Homework 1.4\x64\Debug\Solution.exe
