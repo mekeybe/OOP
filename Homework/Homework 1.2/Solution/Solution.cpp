@@ -15,5 +15,5 @@ int main()
     int x;
     cout << "Input number: ";
     cin >> x;
-    cubeV(x);
+    cout << "Output: " << cubeV(x) << endl;
 }
