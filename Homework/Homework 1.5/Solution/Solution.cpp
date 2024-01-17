@@ -13,15 +13,21 @@ struct Book
 void addPrice(struct Book& A, float x)
 {
     A.price += x;
-    std::cout << "Price after changing: " << A.price << endl;
+    cout << "Price after changing: " << A.price << endl;
 }
 
 int main()
 {
     float x;
-    Book A = { "The Tale", 230, 245.2};
-    std::cout << "Input number: ";
+    string str;
+    Book A = { NULL, NULL, NULL };
+    cout << "Input number: ";
     cin >> x;
-    std::cout << "Price before changing: " << A.price << endl;
+    cout << "Input title: ";
+    cin >> str;
+    strcpy_s(A.title, str.c_str());
+    cout << endl << "Input number of pages and price: ";
+    cin >> A.page >> A.price;
+    cout << "Price before changing: " << A.price << endl;
     addPrice(A, x);
 }

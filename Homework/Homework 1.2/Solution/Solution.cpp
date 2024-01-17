@@ -6,8 +6,8 @@ using namespace std;
 
 int cubeV(int x)
 {
-    int result = pow(x, 3);
-    return result;
+    int cube = pow(x, 3);
+    return cube;
 }
 
 int main()
