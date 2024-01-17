@@ -6,14 +6,13 @@ using namespace std;
 struct Book
 {
     char title[100];
-    int page;
+    int pages;
     float price;
 };
 
 void addPrice(struct Book& A, float x)
 {
     A.price += x;
-    cout << "Price after changing: " << A.price << endl;
 }
 
 int main()
@@ -30,4 +29,5 @@ int main()
     cin >> A.page >> A.price;
     cout << "Price before changing: " << A.price << endl;
     addPrice(A, x);
+    cout << "Price after changing: " << A.price << endl;
 }
