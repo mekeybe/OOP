@@ -4,10 +4,10 @@
 
 using namespace std;
 
-void cubeV(int x)
+int cubeV(int x)
 {
-    int y = pow(x, 3);
-    cout << "Output: " << y << endl;
+    int result = pow(x, 3);
+    return result;
 }
 
 int main()
