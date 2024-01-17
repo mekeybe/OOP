@@ -4,10 +4,10 @@
 
 using namespace std;
 
-void cubeR(const int& x)
+int cubeR(const int& x)
 {
-    int y = pow(x, 3);
-    cout << "Output: " << y << endl;
+    int result = pow(x, 3);
+    return result;
 }
 
 int main()
@@ -15,5 +15,5 @@ int main()
     int x;
     cout << "Input number: ";
     cin >> x;
-    cubeR(x);
+    cout << "Output: " << cubeR(x) << endl;
 }
